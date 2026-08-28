@@ -1,6 +1,6 @@
 ﻿namespace RAJANI_ERP
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -40,7 +40,6 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.lbl_rajani = new Bunifu.UI.WinForms.BunifuLabel();
             this.txt_username = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lbl_username = new Bunifu.UI.WinForms.BunifuLabel();
@@ -50,7 +49,6 @@
             this.btn_login = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.txt_password = new Bunifu.UI.WinForms.BunifuTextBox();
             this.pic_logo = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.btn_show = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.btn_close = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.btn_minimize = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.lbl_error = new Bunifu.UI.WinForms.BunifuLabel();
@@ -65,7 +63,7 @@
             this.lbl_rajani.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbl_rajani.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_rajani.ForeColor = System.Drawing.Color.White;
-            this.lbl_rajani.Location = new System.Drawing.Point(144, 102);
+            this.lbl_rajani.Location = new System.Drawing.Point(161, 102);
             this.lbl_rajani.Name = "lbl_rajani";
             this.lbl_rajani.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_rajani.Size = new System.Drawing.Size(142, 25);
@@ -103,7 +101,7 @@
             this.txt_username.IconRight = null;
             this.txt_username.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_username.Lines = new string[0];
-            this.txt_username.Location = new System.Drawing.Point(93, 282);
+            this.txt_username.Location = new System.Drawing.Point(110, 282);
             this.txt_username.MaxLength = 32767;
             this.txt_username.MinimumSize = new System.Drawing.Size(1, 1);
             this.txt_username.Modified = false;
@@ -158,7 +156,7 @@
             this.lbl_username.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbl_username.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_username.ForeColor = System.Drawing.Color.White;
-            this.lbl_username.Location = new System.Drawing.Point(93, 259);
+            this.lbl_username.Location = new System.Drawing.Point(110, 259);
             this.lbl_username.Name = "lbl_username";
             this.lbl_username.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_username.Size = new System.Drawing.Size(59, 17);
@@ -174,7 +172,7 @@
             this.lbl_password.CursorType = null;
             this.lbl_password.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_password.ForeColor = System.Drawing.Color.White;
-            this.lbl_password.Location = new System.Drawing.Point(93, 332);
+            this.lbl_password.Location = new System.Drawing.Point(110, 332);
             this.lbl_password.Name = "lbl_password";
             this.lbl_password.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_password.Size = new System.Drawing.Size(56, 17);
@@ -190,7 +188,7 @@
             this.lbl_welcome.CursorType = null;
             this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_welcome.ForeColor = System.Drawing.Color.White;
-            this.lbl_welcome.Location = new System.Drawing.Point(93, 184);
+            this.lbl_welcome.Location = new System.Drawing.Point(110, 184);
             this.lbl_welcome.Name = "lbl_welcome";
             this.lbl_welcome.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_welcome.Size = new System.Drawing.Size(82, 25);
@@ -206,7 +204,7 @@
             this.lbl_enter.CursorType = null;
             this.lbl_enter.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lbl_enter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(119)))), ((int)(((byte)(139)))));
-            this.lbl_enter.Location = new System.Drawing.Point(93, 215);
+            this.lbl_enter.Location = new System.Drawing.Point(110, 215);
             this.lbl_enter.Name = "lbl_enter";
             this.lbl_enter.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_enter.Size = new System.Drawing.Size(127, 15);
@@ -264,7 +262,7 @@
             this.btn_login.IdleIconLeftImage = null;
             this.btn_login.IdleIconRightImage = null;
             this.btn_login.IndicateFocus = false;
-            this.btn_login.Location = new System.Drawing.Point(93, 424);
+            this.btn_login.Location = new System.Drawing.Point(110, 424);
             this.btn_login.Name = "btn_login";
             this.btn_login.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btn_login.OnDisabledState.BorderRadius = 1;
@@ -336,7 +334,7 @@
             this.txt_password.IconRight = null;
             this.txt_password.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_password.Lines = new string[0];
-            this.txt_password.Location = new System.Drawing.Point(93, 355);
+            this.txt_password.Location = new System.Drawing.Point(110, 355);
             this.txt_password.MaxLength = 32767;
             this.txt_password.MinimumSize = new System.Drawing.Size(1, 1);
             this.txt_password.Modified = false;
@@ -380,7 +378,7 @@
             this.txt_password.TextMarginLeft = 3;
             this.txt_password.TextMarginTop = 1;
             this.txt_password.TextPlaceholder = "**********";
-            this.txt_password.UseSystemPasswordChar = false;
+            this.txt_password.UseSystemPasswordChar = true;
             this.txt_password.WordWrap = true;
             // 
             // pic_logo
@@ -391,45 +389,13 @@
             this.pic_logo.BorderRadius = 0;
             this.pic_logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_logo.Image")));
             this.pic_logo.IsCircle = true;
-            this.pic_logo.Location = new System.Drawing.Point(88, 87);
+            this.pic_logo.Location = new System.Drawing.Point(105, 87);
             this.pic_logo.Name = "pic_logo";
             this.pic_logo.Size = new System.Drawing.Size(45, 45);
             this.pic_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic_logo.TabIndex = 13;
             this.pic_logo.TabStop = false;
             this.pic_logo.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
-            // 
-            // btn_show
-            // 
-            this.btn_show.AllowAnimations = true;
-            this.btn_show.AllowBorderColorChanges = true;
-            this.btn_show.AllowMouseEffects = true;
-            this.btn_show.AnimationSpeed = 200;
-            this.btn_show.BackColor = System.Drawing.Color.Transparent;
-            this.btn_show.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(43)))));
-            this.btn_show.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(43)))));
-            this.btn_show.BorderRadius = 1;
-            this.btn_show.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.btn_show.BorderThickness = 1;
-            this.btn_show.ColorContrastOnClick = 30;
-            this.btn_show.ColorContrastOnHover = 30;
-            this.btn_show.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btn_show.CustomizableEdges = borderEdges2;
-            this.btn_show.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_show.Image = ((System.Drawing.Image)(resources.GetObject("btn_show.Image")));
-            this.btn_show.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.btn_show.Location = new System.Drawing.Point(359, 362);
-            this.btn_show.Name = "btn_show";
-            this.btn_show.RoundBorders = true;
-            this.btn_show.ShowBorders = true;
-            this.btn_show.Size = new System.Drawing.Size(27, 27);
-            this.btn_show.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.btn_show.TabIndex = 14;
-            this.btn_show.Click += new System.EventHandler(this.Btn_show_Click);
             // 
             // btn_close
             // 
@@ -446,14 +412,14 @@
             this.btn_close.ColorContrastOnClick = 30;
             this.btn_close.ColorContrastOnHover = 30;
             this.btn_close.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btn_close.CustomizableEdges = borderEdges3;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btn_close.CustomizableEdges = borderEdges2;
             this.btn_close.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.ImageMargin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.btn_close.ImageMargin = new System.Windows.Forms.Padding(0);
             this.btn_close.Location = new System.Drawing.Point(442, 7);
             this.btn_close.Name = "btn_close";
             this.btn_close.RoundBorders = false;
@@ -478,11 +444,11 @@
             this.btn_minimize.ColorContrastOnClick = 30;
             this.btn_minimize.ColorContrastOnHover = 30;
             this.btn_minimize.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btn_minimize.CustomizableEdges = borderEdges4;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btn_minimize.CustomizableEdges = borderEdges3;
             this.btn_minimize.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_minimize.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimize.Image")));
             this.btn_minimize.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -499,10 +465,11 @@
             // 
             this.lbl_error.AllowParentOverrides = false;
             this.lbl_error.AutoEllipsis = false;
+            this.lbl_error.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbl_error.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbl_error.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lbl_error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_error.Location = new System.Drawing.Point(102, 400);
+            this.lbl_error.Location = new System.Drawing.Point(119, 400);
             this.lbl_error.Name = "lbl_error";
             this.lbl_error.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_error.Size = new System.Drawing.Size(0, 0);
@@ -519,7 +486,6 @@
             this.Controls.Add(this.lbl_error);
             this.Controls.Add(this.btn_minimize);
             this.Controls.Add(this.btn_close);
-            this.Controls.Add(this.btn_show);
             this.Controls.Add(this.pic_logo);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.lbl_enter);
@@ -551,7 +517,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btn_login;
         private Bunifu.UI.WinForms.BunifuTextBox txt_password;
         private Bunifu.UI.WinForms.BunifuPictureBox pic_logo;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btn_show;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btn_close;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btn_minimize;
         private Bunifu.UI.WinForms.BunifuLabel lbl_error;
