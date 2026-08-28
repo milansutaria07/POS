@@ -7,14 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Bunifu.UI; // Bunifu UI namespace (adjust based on your installed version)
+
 using System.Configuration;
-using Bunifu.UI.WinForms;
 using Npgsql;
 
-namespace Rajani_ERP
+namespace RAJANI_ERP
 {
-    public partial class Form3 : Form
+    public partial class Form1 : Form
     {
         public static class DatabaseConnection
         {
@@ -29,32 +28,21 @@ namespace Rajani_ERP
             }
         }
 
-        public Form3()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            chkShowPassword.Checked = false;
+            lbl_error.Visible = false;
+           
         }
 
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void Btn_login_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void BtnMinimize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        
-        // ---- Login logic ----
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-            string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text.Trim();
+            string username = txt_username.Text.Trim();
+            string password = txt_password.Text.Trim();
 
             using (var connection = DatabaseConnection.GetConnection())
             {
@@ -86,29 +74,29 @@ namespace Rajani_ERP
                             }
                             else
                             {
-                                lblError.Text = "Username or password is incorrect.";
-                                lblError.Visible = true;
+                                lbl_error.Text = "Username or password is incorrect.";
+                                lbl_error.Visible = true;
                             }
                         }
                     }
                 }
             }
         }
-        //show and hide password
-        private void ChkShowPassword_CheckedChanged(object sender, BunifuCheckBox.CheckedChangedEventArgs e)
-        {
-            if(chkShowPassword.Checked == true)
-            {
-                txtPassword.UseSystemPasswordChar = false;
-                txtPassword.PasswordChar = '\0';
-            }
-            else
-            {
-                txtPassword.UseSystemPasswordChar = true;
-                txtPassword.PasswordChar = '*';
 
-            }
+        private void Btn_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
+        private void Btn_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Btn_show_Click(object sender, EventArgs e)
+        {
+                
+            
+        }
     }
 }

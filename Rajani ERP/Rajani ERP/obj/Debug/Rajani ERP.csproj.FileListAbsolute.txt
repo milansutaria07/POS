@@ -38,11 +38,10 @@ C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\bin\Debug\System
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\bin\Debug\System.ValueTuple.xml
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani_ERP.Form2.resources
+C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani_ERP.Form3.resources
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani_ERP.Properties.Resources.resources
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.csproj.GenerateResource.cache
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.csproj.CoreCompileInputs.cache
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.csproj.CopyComplete
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.exe
 C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.pdb
-C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani ERP.csprojAssemblyReference.cache
-C:\Users\Milan R. Sutaria\Desktop\RAJ\POS\Rajani ERP\Rajani ERP\obj\Debug\Rajani_ERP.Form3.resources
