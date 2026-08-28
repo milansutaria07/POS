@@ -13,7 +13,7 @@ using Npgsql;
 
 namespace RAJANI_ERP
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         public static class DatabaseConnection
         {
@@ -28,7 +28,7 @@ namespace RAJANI_ERP
             }
         }
 
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -95,8 +95,31 @@ namespace RAJANI_ERP
 
         private void Btn_show_Click(object sender, EventArgs e)
         {
-                
-            
+            if (txt_password.PasswordChar == '\0')
+            {
+                // Currently showing → hide it
+                txt_password.PasswordChar = '*';
+            }
+            else
+            {
+                // Currently hidden → show it
+                txt_password.PasswordChar = '\0';
+            }
+
+        }
+
+        private void bunifuCheckBox1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (txt_password.UseSystemPasswordChar)
+            {
+                // Show password
+                txt_password.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                // Hide password
+                txt_password.UseSystemPasswordChar = true;
+            }
         }
     }
 }

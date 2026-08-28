@@ -1293,43 +1293,27 @@
         gg==
 </value>
   </data>
-  <data name="btn_show.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAhVJREFUWEft
-        1cvLjVEUx3EmyG3gMjEzkHvMEBOXiUxRyGWIf0C95ZJigAHFK2JAzMSUFLkVEykDhYQBRUrkGj5aWk+d
-        szovJ5eBOt/adfbz+621z7P3s9YeNKhHjx5dgvFYiX7cwgO8ynEfN3EQyzG2xv82mIbj+Kh7PuAoJtd8
-        XYNROIRvmfQrrmEHFmEKxuWYisXYiRsl5gBG1Pw/BfPxOJO8zySTqm8g4s3zOJpde4S51dcRrMWnDDyH
-        CdXTLZiI85krcq6unjawKrct2IfB1RPkG27DqRxbBzrvyIH9mfNLfKTV8wPMxrs09lU9wDAcafmTrcSz
-        0IbVuADb0/cWM6sYiR+m4VibmGAILqcntvMENuQ42XJsl8Jb44OMCaJsh7YKfSncaRNawO70PMH0DvoM
-        PE3PrqoH+aJ307OleRhlFNsSLKxBAUZmNUR5zal6A+alJ7wdSw9Lcq03PxoWNueDC9XcgGXpuVa1Cq6n
-        d2nVGnAxPRtjcjUnq6qxAZvS01+1Cg6nd1PVGrAmPVdi8hKvMbwaG7A+A05WrYLT6V1XtYY4nlzzRUwm
-        /arLRdlk0mcDlVmQH9nz9M6qeivdrNtGVkiwp2oN2Jue21X7Y7AAn3OBaDhjWrQxefsF0Q/mt0f/JbAi
-        r9og2uq9HPE7CK1zq/1bRBPC2ZbOF8Stdyau5er/Z2B0fpwxRlW9R48e/w3fAXpIalqqEh8mAAAAAElF
-        TkSuQmCC
-</value>
-  </data>
   <data name="btn_close.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAHSSURBVFhH7Za7TgJBFIZ5qqExFuxGI1pQaeIlxoQQNFSIMQFiRAo10YbawsbCh6DQB9DGEI1W
-        BlFuVjPsrgLHDLhczhlUlk00kT/5mpnzz39mspfxeMYaSyGhe0NcYzmuMYtrDEZErpETPhbEOUoJHwsr
-        FnEFuTGcR/S5c2J2iRucR8Q11lAY3aKO84gUJlfBeUTYYCMW5sDKHJNxjBGLAJ+eIOM2OI8IGyS1pQA0
-        b+8Ayq/wfn4GXPeSGomVOWrV1C8vQMxOknnHDRgbawD5QmtxydvpCakx93cBStV2TbECRjRMahw3IKmt
-        r0LzMd9povck7J23eCmDGY8S/8gNDGpimPCRG1A10Ree2CT1GJxHhA0qZBNQKHbDS1UwkzFSpwLnEWGD
-        Cvk64hP46u3oBecRYQOmL7xYBnh6HqoJnEeEDYPDK2Amt8gz8V0TOI8IG5ThpQqYe4nO3DBN4DwibJCY
-        O9vdj4x84A5SpMaIBPs+VtZhmtQ4bkAEpqBxdd3eeTpJ5m3sk6hns8Bn1P8DnEeEDTZi3g9mKk7GMbXQ
-        MnC/+j8gwXlE2OA2OI/oL1xIfvlK5vOuKIzuoLNFnKeUvL0KjT2QBRwidHb/42v5WP9OH+QQ03MUnnXe
-        AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdJJREFUWEft
+        lrtOAkEUhnmqoTEW7EYjWlBp4iXGhBA0VIgxAWJECjXRhtrCxsKHoNAH0MYQjVYGUW5WM+yuAscMuFzO
+        GVSWTTSRP/mamfPPf2ayl/F4xhpLIaF7Q1xjOa4xi2sMRkSukRM+FsQ5SgkfCysWcQW5MZxH9LlzYnaJ
+        G5xHxDXWUBjdoo7ziBQmV8F5RNhgIxbmwMock3GMEYsAn54g4zY4jwgbJLWlADRv7wDKr/B+fgZc95Ia
+        iZU5atXULy9AzE6SeccNGBtrAPlCa3HJ2+kJqTH3dwFK1XZNsQJGNExqHDcgqa2vQvMx32mi9yTsnbd4
+        KYMZjxL/yA0MamKY8JEbUDXRF57YJPUYnEeEDSpkE1AodsNLVTCTMVKnAucRYYMK+TriE/jq7egF5xFh
+        A6YvvFgGeHoeqgmcR4QNg8MrYCa3yDPxXRM4jwgblOGlCph7ic7cME3gPCJskJg7292PjHzgDlKkxogE
+        +z5W1mGa1DhuQASmoHF13d55OknmbeyTqGezwGfU/wOcR4QNNmLeD2YqTsYxtdAycL/6PyDBeUTY4DY4
+        j+gvXEh++Urm864ojO6gs0Wcp5S8vQqNPZAFHCJ0dv/ja/lY/04f5BDTcxSedd4AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btn_minimize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVFhH7ZYxjsIwEABp4FUnkPgbB/ySAhC6R8yeLCUU
-        a0WaDenIlOvx2OVuNisriYjYAWfgFgvRWsBvRGzzex0RccmBpQBO+b0O4DHIh3w2F+A4NO/5rGP8bZ5/
-        iu5qsYjuarGI7mqxiO5qsYjuarGI7mqxiO5qsYjuarGI7mqxiO5qsYjuarGI7mqxiO5OiePcMnU/zzum
-        xHdZMnU/zzu0WER3tVhEd7VYRHeB1+D+5LO5APsWBJ75rAO4jr9dGrWUtrW8bcbAXw7MpbX0Wr7ydfwD
-        aAYhVe8hmvkAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAANVJREFUWEftljGOwjAQAGngVSeQ+BsH/JICELpHzJ4sJRRrRZoN6ciU6/HY5W42
+        KyuJiNgBZ+AWC9FawG9EbPN7HRFxyYGlAE75vQ7gMciHfDYX4Dg07/msY/xtnn+K7mqxiO5qsYjuarGI
+        7mqxiO5qsYjuarGI7mqxiO5qsYjuarGI7mqxiO5qsYjuarGI7k6J49wydT/PO6bEd1kydT/PO7RYRHe1
+        WER3tVhEd4HX4P7ks7kA+xYEnvmsA7iOv10atZS2tbxtxsBfDsyltfRavvJ1/ANoBiFV7yGa+QAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
   <data name="lbl_error.BaseStylesheet" xml:space="preserve">
