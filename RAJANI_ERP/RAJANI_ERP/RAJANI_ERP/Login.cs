@@ -108,18 +108,6 @@ namespace RAJANI_ERP
 
         }
 
-        private void bunifuCheckBox1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
-        {
-            if (txt_password.UseSystemPasswordChar)
-            {
-                // Show password
-                txt_password.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                // Hide password
-                txt_password.UseSystemPasswordChar = true;
-            }
-        }
+        
     }
 }
