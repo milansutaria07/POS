@@ -31,6 +31,8 @@ namespace RAJANI_ERP
         public Login()
         {
             InitializeComponent();
+
+            this.AcceptButton = btn_login;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,11 +68,15 @@ namespace RAJANI_ERP
 
                             if (isValid)
                             {
+                                /*
                                 MessageBox.Show(
                                     "Login successful for " + userType,
                                     "Login Successful",
                                     MessageBoxButtons.OK,
-                                    MessageBoxIcon.Information);
+                                    MessageBoxIcon.Information);*/
+                                this.Hide();
+                                MainPage mp = new MainPage();
+                                mp.ShowDialog();
                             }
                             else
                             {
