@@ -17,109 +17,102 @@ namespace RAJANI_ERP
             InitializeComponent();
         }
 
-        private void bunifuPanel3_Click(object sender, EventArgs e)
-        {
 
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+            pg_main.SetPage(0);
         }
 
-        private void bunifuLabel3_Click(object sender, EventArgs e)
+        private void MainPage_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void bunifuPictureBox2_Click(object sender, EventArgs e)
+        private void Cmd_sales_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(0);
         }
 
-        private void bunifuIconButton1_Click(object sender, EventArgs e)
+        private void Cmd_dn_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(2);
         }
 
-        private void bunifuIconButton2_Click(object sender, EventArgs e)
+        private void Cmd_invoices_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(3);
         }
 
-        private void bunifuButtonCompany_Click(object sender, EventArgs e)
+        private void Cmd_stock_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(4);
         }
 
-        private void bunifuButton21_Click(object sender, EventArgs e)
+        private void Cmd_products_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(5);
         }
 
-        private void bunifuButton22_Click(object sender, EventArgs e)
+        private void Cmd_settings_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(6);
         }
 
-        private void bunifuButton23_Click(object sender, EventArgs e)
-        {
+        
 
+        private void Btn_create_create_cs_Click(object sender, EventArgs e)
+        {
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(0);
         }
 
-        private void bunifuButton26_Click(object sender, EventArgs e)
+        private void Btn_create_cancel_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(2);
         }
 
-        private void bunifuButton24_Click(object sender, EventArgs e)
+        private void Btn_create_view_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(1);
         }
 
-        private void bunifuButton25_Click(object sender, EventArgs e)
+        private void Btn_view_create_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(0);
         }
 
-        private void bunifuPanel1_Click(object sender, EventArgs e)
+        private void Btn_view_cancel_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(2);
         }
 
-        private void bunifuButtonSettings_Click(object sender, EventArgs e)
+        private void Btn_view_view_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(1);
         }
 
-        private void bunifuButtonProducts_Click(object sender, EventArgs e)
+        private void Btn_cancel_create_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(0);
         }
 
-        private void bunifuButtonDashboard_Click(object sender, EventArgs e)
+        private void Btn_cancel_cancel_cs_Click(object sender, EventArgs e)
         {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(2);
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
+        private void Btn_cancel_view_cs_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void bunifuPanel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuLabel3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuLabel4_Click(object sender, EventArgs e)
-        {
-
+            pg_main.SetPage(1);
+            pg_sub_page.SetPage(1);
         }
     }
 }

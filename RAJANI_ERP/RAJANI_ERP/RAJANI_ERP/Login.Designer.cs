@@ -68,6 +68,7 @@
             this.lbl_rajani.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_rajani.Size = new System.Drawing.Size(142, 25);
             this.lbl_rajani.TabIndex = 0;
+            this.lbl_rajani.TabStop = false;
             this.lbl_rajani.Text = "Rajani Suppliers";
             this.lbl_rajani.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_rajani.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -161,6 +162,7 @@
             this.lbl_username.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_username.Size = new System.Drawing.Size(59, 17);
             this.lbl_username.TabIndex = 3;
+            this.lbl_username.TabStop = false;
             this.lbl_username.Text = "Username";
             this.lbl_username.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_username.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -177,6 +179,7 @@
             this.lbl_password.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_password.Size = new System.Drawing.Size(56, 17);
             this.lbl_password.TabIndex = 4;
+            this.lbl_password.TabStop = false;
             this.lbl_password.Text = "Password";
             this.lbl_password.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_password.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -193,6 +196,7 @@
             this.lbl_welcome.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_welcome.Size = new System.Drawing.Size(82, 25);
             this.lbl_welcome.TabIndex = 5;
+            this.lbl_welcome.TabStop = false;
             this.lbl_welcome.Text = "Welcome";
             this.lbl_welcome.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_welcome.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -209,6 +213,7 @@
             this.lbl_enter.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_enter.Size = new System.Drawing.Size(127, 15);
             this.lbl_enter.TabIndex = 6;
+            this.lbl_enter.TabStop = false;
             this.lbl_enter.Text = "Please enter your details";
             this.lbl_enter.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_enter.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -297,7 +302,7 @@
             this.btn_login.OnPressedState.IconLeftImage = null;
             this.btn_login.OnPressedState.IconRightImage = null;
             this.btn_login.Size = new System.Drawing.Size(260, 39);
-            this.btn_login.TabIndex = 7;
+            this.btn_login.TabIndex = 3;
             this.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_login.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_login.TextMarginLeft = 0;
@@ -372,7 +377,7 @@
             this.txt_password.ShortcutsEnabled = true;
             this.txt_password.Size = new System.Drawing.Size(260, 39);
             this.txt_password.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_password.TabIndex = 10;
+            this.txt_password.TabIndex = 2;
             this.txt_password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txt_password.TextMarginBottom = 0;
             this.txt_password.TextMarginLeft = 3;
@@ -427,6 +432,7 @@
             this.btn_close.Size = new System.Drawing.Size(30, 25);
             this.btn_close.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Flat;
             this.btn_close.TabIndex = 15;
+            this.btn_close.TabStop = false;
             this.btn_close.Click += new System.EventHandler(this.Btn_close_Click);
             // 
             // btn_minimize
@@ -459,6 +465,7 @@
             this.btn_minimize.Size = new System.Drawing.Size(30, 25);
             this.btn_minimize.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Flat;
             this.btn_minimize.TabIndex = 16;
+            this.btn_minimize.TabStop = false;
             this.btn_minimize.Click += new System.EventHandler(this.Btn_minimize_Click);
             // 
             // lbl_error
@@ -477,7 +484,7 @@
             this.lbl_error.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbl_error.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -496,7 +503,7 @@
             this.Controls.Add(this.lbl_rajani);
             this.Controls.Add(this.txt_password);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
