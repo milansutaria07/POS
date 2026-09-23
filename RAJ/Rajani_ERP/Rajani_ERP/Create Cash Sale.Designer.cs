@@ -449,11 +449,11 @@
             this.CreateButton3.IndicateFocus = false;
             this.CreateButton3.Location = new System.Drawing.Point(715, 644);
             this.CreateButton3.Name = "CreateButton3";
-            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(119)))), ((int)(((byte)(175)))));
             stateProperties1.BorderRadius = 10;
             stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             stateProperties1.BorderThickness = 1;
-            stateProperties1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(119)))), ((int)(((byte)(175)))));
             stateProperties1.ForeColor = System.Drawing.Color.White;
             stateProperties1.IconLeftImage = null;
             stateProperties1.IconRightImage = null;
@@ -512,11 +512,11 @@
             this.CancleButton2.IndicateFocus = false;
             this.CancleButton2.Location = new System.Drawing.Point(860, 644);
             this.CancleButton2.Name = "CancleButton2";
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(119)))), ((int)(((byte)(175)))));
             stateProperties3.BorderRadius = 10;
             stateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             stateProperties3.BorderThickness = 1;
-            stateProperties3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(119)))), ((int)(((byte)(175)))));
             stateProperties3.ForeColor = System.Drawing.Color.White;
             stateProperties3.IconLeftImage = null;
             stateProperties3.IconRightImage = null;

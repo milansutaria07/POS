@@ -81,8 +81,6 @@ namespace Rajani_ERP
             panel2.SetBounds(navWidth, HeaderHeight,
                              contentWidth,
                              Math.Max(0, height - HeaderHeight));
-
-            ResizeHeader(contentWidth, mobile);
             
             pnl_main.Invalidate();
         }
@@ -193,45 +191,7 @@ namespace Rajani_ERP
                 button.Text = "Settings";
                 button.TextMarginLeft = -48;
             }
-        }
-
-        private void ResizeHeader(int contentWidth, bool mobile)
-        {
-            if (panel1 == null)
-                return;
-
-            // User/profile controls stay on the right.
-            comboBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            bunifuImageButton1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-
-            int right = Math.Max(10, contentWidth - 10);
-
-            comboBox1.SetBounds(
-                Math.Max(10, right - comboBox1.Width),
-                19,
-                Math.Min(comboBox1.Width, Math.Max(100, contentWidth - 20)),
-                25);
-
-            bunifuImageButton1.SetBounds(
-                Math.Max(10, comboBox1.Left - 52),
-                10, 40, 40);
-
-            pictureBox2.SetBounds(
-                Math.Max(10, bunifuImageButton1.Left - 40),
-                15, 30, 30);
-
-            // Search becomes too crowded on small screens.
-            bool showSearch = contentWidth >= 650 && !mobile;
-
-            if (showSearch)
-            {
-                int searchRight = pictureBox2.Left - 15;
-                int searchWidth = Math.Max(120, searchRight - 350);
-
-            }
-        }
-     
+        }     
 
         // Keep your existing business logic in these handlers if you already
         // have implementations in your project. These default implementations
@@ -288,6 +248,17 @@ namespace Rajani_ERP
         {
             Cancel_Cash_Sale Cancel_Cash_Sale = new Cancel_Cash_Sale();
             Cancel_Cash_Sale.Show();
+        }
+
+        private void BunifuButton6_Click(object sender, EventArgs e)
+        {
+            AddStock addStock = new AddStock();
+            addStock.Show();
+        }
+
+        private void BunifuDropdown1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
